@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://Username:password@cluster0-vmfvb.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://Nithiyasri:nithiyasri111@cluster0-mkm40.mongodb.net/test?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => { console.log("DB connected") }).catch((err) => { console.log(err) });
